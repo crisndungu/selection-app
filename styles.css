@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://example.com/scenic-background.jpg'); /* Replace with a URL to a scenic, romantic image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #FF6F61; /* Romantic coral color */
+}
+
+.option-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #FF6F61;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.option-button:hover {
+    background-color: #FF4E42;
+    transform: scale(1.1);
+}
+
+#result h2 {
+    color: #FF6F61;
+}
