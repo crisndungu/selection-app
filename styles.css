@@ -32,7 +32,7 @@ h1 {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.4s ease;
 }
 
 .option-button:hover {
